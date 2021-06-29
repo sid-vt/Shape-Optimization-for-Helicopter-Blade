@@ -1,5 +1,10 @@
 # Shape optimization for Helicopter Blade
 
+This project is a graduate level course project prepared to fulfill the course requirement of **AOE 5064 - Structural Optimization**
+Under the guidance of **Dr. Robert Canfield - Virginia Tech**
+@Kevin T. Krofton Aerospace Engineering
+@Virginia Tech
+
 Keywords      | Description
 ------------- | -------------
 E, Pa         | Young’s Modulus
@@ -48,8 +53,7 @@ Results are obtained using self-designed slp algorithm and results are verified 
 ###  Validation
 The optimized mass values are validated using the research paper [4] this entire project is based on.
 
-##   Results and Discussion
-Read Final Report
+NOTE: For descriptive procedure, derivations and result refer to Final_Report.pdf and Final_presentation.pptx
 
 ##   Pseudo Codes
 ###  optimization_slp_trust.m (Main Program)
@@ -124,3 +128,11 @@ Read Final Report
     solve for slope
     solve for derivative of deflection wrt to design variable
     solve for derivative of nodal location wrt to design variable
+
+## Refereces
+ Markup :
+ 1. R B Taylor, Helicopter rotor blade design for minimum vibration, Vols. NASA CR-3825, Anaheim: National Aeronautics and Space Administration, Scientific and Technical~…, 1984.
+ 2. R B Taylor, "Helicopter vibration reduction by rotor blade modal shaping," in Proceedings of the 38th Annual Forum of the American Helicopter Society, 1982, pp. 90--101.
+ 3. H A R H J I Pritchard, "Sensitivity analysis and optimization of nodal point placement for vibration reduction," Journal of Sound and Vibration,, vol. 2, no. 119, pp. 277-289, 1987.
+ 4. R B Nelson, "Simplified Calculation of eigenvector derivatives," American Institute of Aeronautics and Astronautics Journal, no. 14, pp. 1201 - 1205, 1976.
+         
