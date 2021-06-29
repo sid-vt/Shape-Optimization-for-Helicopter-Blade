@@ -31,11 +31,12 @@ xop, m        | Optimum location for the nodal point from the origin
 
 ## Project Description
 In structural dynamics, modal analysis is one of the key aspects for studying mechanical vibrations. This project is a study to change the nodal location of the mode shape for a helicopter rotor blade under a given air load criteria. This will be done by varying the lumped masses acting as the design variables to bring the node of a mode shape near to the desired location. This nodal replacement will effect directly on reducing the generalized force acting on the helicopter blade which would result in the minimization of vibration responses. δ is considered as the allowable distance from the desired location, this value is taken as 0.0254 m. This value will be used to set up the constraint function. This nodal location is chosen such a way that the mode shape will be orthogonal to the force distribution.
-<image>
+
+![Mode Shape](https://user-images.githubusercontent.com/58354840/123844118-a35d3280-d8e0-11eb-98be-5ffbd5282f05.png)
 
 This project considers the beam of a total length of 4.90 m and a total of 10 elements in the design. The eight lumped masses placed on grid points 3, 4, 6-11 along the length of the beam. These masses will act as our design variables.
 
-<image>
+![Cantiliver Beam](https://user-images.githubusercontent.com/58354840/123844177-b40da880-d8e0-11eb-8939-4592a3f492e1.png)
 
 ## Approach to Solving the Structural Design Problem
 **Phase 1** corresponds of performing modal analysis and calculating the correct mode shape and computing the required nodal location of the second mode. This is done by solving the eigenvalue equation using Finite Element Method and writing the on code from scratch in MATLAB.
@@ -43,8 +44,9 @@ This project considers the beam of a total length of 4.90 m and a total of 10 el
 **Phase 2** involves performing sensitivity analysis, to solve this problem it requires solving three sensitivity, first is nodal point sensitivity. As seen in the derivation given by Eq 5, this requires computing two different derivative, slope and eigenvector sensitivity. Computing slope is easy and a simple code to find this value can be written, but for eigenvector sensitivity, I used a simplified approach called Nelson’s method as explained by Eq 6 - Eq 15. While solving we found that there is a need to solve another sensitivity that calls for a another sensitivity computation, eigenvalue sensitivity as given by the derivation of Nelson’s Method.
 
 **Phase 3** involves solving optimization problem. I have written my own code for slp with trust regions and found the optimized value for lumped masses. Then I used Dr. Canfield’s written code ‘slp_trust’ available on MATLAB File Exchange. This code has two features as it is faster than mine and is more credible than mine. This subroutine also includes commands to plot iteration history that shows convergence of constraint and objective function.
-<img1>
-<img2>
+
+![Picture1](https://user-images.githubusercontent.com/58354840/123844215-bec83d80-d8e0-11eb-8139-a2250ea0f8e6.png)
+![Picture2](https://user-images.githubusercontent.com/58354840/123844244-c7b90f00-d8e0-11eb-9c35-450d7a739e81.png)
 
 ##   Test Approach
 ###  Verification
@@ -52,6 +54,12 @@ Results are obtained using self-designed slp algorithm and results are verified 
 
 ###  Validation
 The optimized mass values are validated using the research paper [4] this entire project is based on.
+
+##   Result
+### Iteration History:
+![Iteration History](https://user-images.githubusercontent.com/58354840/123843979-7872de80-d8e0-11eb-809b-d13ac2f47eed.jpg)
+### Shape Optimization
+![ModeShape-Analysis_v2](https://user-images.githubusercontent.com/58354840/123844067-96d8da00-d8e0-11eb-9ffb-fd56fe4cee9d.jpg)
 
 ##   NOTE:
 For descriptive procedure, derivations and result refer to Final_Report.pdf and Final_presentation.pptx
