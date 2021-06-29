@@ -65,7 +65,7 @@ The optimized mass values are validated using the research paper [4] this entire
 ![ModeShape-Analysis_v2](https://user-images.githubusercontent.com/58354840/123844067-96d8da00-d8e0-11eb-9ffb-fd56fe4cee9d.jpg)
 
 ##   NOTE:
-For descriptive procedure, derivations and result refer to Final_Report.pdf and Final_presentation.pptx
+For descriptive procedure, derivations and result refer to Final_Report.pdf and Final_Presentation.pdf
 
 ##   Pseudo Codes
 ###  optimization_slp_trust.m (Main Program)
