@@ -1,7 +1,7 @@
 # Shape optimization for Helicopter Blade
 
-This project is a graduate level course project prepared to fulfill the course requirement of **AOE 5064 - Structural Optimization**
-Under the guidance of **Dr. Robert Canfield - Virginia Tech**
+This project is a graduate level course project prepared to fulfill the course requirement of **AOE 5064 - Structural Optimization**.
+Under the guidance of **Dr. Robert Canfield - Virginia Tech**.
 @Kevin T. Krofton Aerospace Engineering
 @Virginia Tech
 
