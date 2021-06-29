@@ -53,7 +53,8 @@ Results are obtained using self-designed slp algorithm and results are verified 
 ###  Validation
 The optimized mass values are validated using the research paper [4] this entire project is based on.
 
-NOTE: For descriptive procedure, derivations and result refer to Final_Report.pdf and Final_presentation.pptx
+##   NOTE:
+For descriptive procedure, derivations and result refer to Final_Report.pdf and Final_presentation.pptx
 
 ##   Pseudo Codes
 ###  optimization_slp_trust.m (Main Program)
