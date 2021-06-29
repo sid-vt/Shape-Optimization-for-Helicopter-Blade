@@ -131,7 +131,6 @@ For descriptive procedure, derivations and result refer to Final_Report.pdf and 
     solve for derivative of nodal location wrt to design variable
 
 ## Refereces
- Markup :
  1. R B Taylor, Helicopter rotor blade design for minimum vibration, Vols. NASA CR-3825, Anaheim: National Aeronautics and Space Administration, Scientific and Technical~…, 1984.
  2. R B Taylor, "Helicopter vibration reduction by rotor blade modal shaping," in Proceedings of the 38th Annual Forum of the American Helicopter Society, 1982, pp. 90--101.
  3. H A R H J I Pritchard, "Sensitivity analysis and optimization of nodal point placement for vibration reduction," Journal of Sound and Vibration,, vol. 2, no. 119, pp. 277-289, 1987.
