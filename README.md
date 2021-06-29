@@ -45,8 +45,11 @@ This project considers the beam of a total length of 4.90 m and a total of 10 el
 
 **Phase 3** involves solving optimization problem. I have written my own code for slp with trust regions and found the optimized value for lumped masses. Then I used Dr. Canfield’s written code ‘slp_trust’ available on MATLAB File Exchange. This code has two features as it is faster than mine and is more credible than mine. This subroutine also includes commands to plot iteration history that shows convergence of constraint and objective function.
 
-![Picture1](https://user-images.githubusercontent.com/58354840/123844215-bec83d80-d8e0-11eb-8139-a2250ea0f8e6.png)
-![Picture2](https://user-images.githubusercontent.com/58354840/123844244-c7b90f00-d8e0-11eb-9c35-450d7a739e81.png)
+###  Flow Charts
+
+![Picture1](https://user-images.githubusercontent.com/58354840/123844604-3c8c4900-d8e1-11eb-856b-03e30f1b7363.png)
+
+![Picture2](https://user-images.githubusercontent.com/58354840/123844619-401fd000-d8e1-11eb-9925-12d88ff4b419.jpg)
 
 ##   Test Approach
 ###  Verification
